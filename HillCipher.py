@@ -3,6 +3,8 @@ from sympy import Matrix
 from sympy import mod_inverse
 import math
 
+
+# new comment
 def adjoint_matrix(matrix):
     n = len(matrix)
     adjoint = np.zeros((n, n), dtype=float)
