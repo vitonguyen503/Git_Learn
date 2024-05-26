@@ -35,8 +35,10 @@ def vigenere_decrypt(encrypted_text, key):
 
     return ''.join(decrypted_text)
 
-plaintext = "HELLO"
+plaintext = "I AM A GOD"
 key = "KEY"
+
+print('hfdskfh')
 encrypted_text = vigenere_encrypt(plaintext, key)
 print("Encrypted:", encrypted_text)
 decrypted_text = vigenere_decrypt(encrypted_text, key)
